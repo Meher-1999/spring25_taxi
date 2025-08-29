@@ -1,0 +1,21 @@
+[tool.poetry]
+name        = "spring25-taxi"
+version     = "0.1.0"
+description = ""
+authors     = ["Meher Dhavala <mehersav@buffalo.edu>"]
+readme      = "README.md"
+
+[tool.poetry.dependencies]
+python   = "^3.12"
+notebook = "^7.3.2"
+pandas = "^2.3.0"
+requests = "^2.32.4"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+jupyter-client = "^8.6.3"
+jupyter-core = "^5.8.1"
+
+[build-system]
+requires    = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
